@@ -10,4 +10,5 @@ Docker rm <container_id>
 Docker images
 
 # remove images
+docker image rm <image_name>
 Docker rmi <image_id>
