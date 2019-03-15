@@ -4,8 +4,8 @@ RUN apt-get update && apt-get install -y curl \
 	&& rm -rf /var/lib/apt/lists/*
 
 RUN mkdir /home/Codes
-ENV USER Cerulean-Canvas
+ENV USER ajoshi
 ENV SHELL /bin/bash
-ENV LOGNAME Cerulean-Canv
+ENV LOGNAME ajoshi-log
 
 CMD ["bash"]

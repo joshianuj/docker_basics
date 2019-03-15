@@ -1,6 +1,6 @@
 FROM ubuntu:12.04
 
-LABEL Creator: "Cerulean Canvas"
+LABEL Creator: "Anuj joshi"
 
 RUN apt-get update && apt-get install -y apache2 \
 	&& apt-get clean \
